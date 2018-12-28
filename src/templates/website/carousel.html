@@ -1,0 +1,23 @@
+{% load static %}
+<div id="carousel-example-1" class="carousel slide carousel-fade d-none d-md-block" data-ride="carousel" data-interval="10000">
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!--First slide-->
+    <div class="carousel-item active">
+      <!--Mask-->
+      <div class="view">
+        <video class="video-fluid" autoplay loop>
+          <source src="{% static 'img/TransportBoussard.mp4' %}" type="video/mp4">
+        </video>
+        <div class="full-bg-img flex-center mask rgba-indigo-light white-text ">
+          <h2 class="animated fadeInUp">Transport Boussard </h2>
+          <p class="lead animated fadeInDown"></p>
+        </div>
+      </div>
+      <!--/.Mask-->
+    </div>
+    <!--/.First slide-->
+  </div>
+
+  <!--/.Slides-->
+</div>

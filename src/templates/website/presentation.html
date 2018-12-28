@@ -1,0 +1,44 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+
+  {% block content %}
+  <section class="presentation bg-light">
+    <div class="container">
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7 pb-3">
+          <!--Excerpt-->
+          <h3 class="mb-4 font-weight-bold dark-grey-text">
+              <strong>This is title of the news</strong>
+          </h3>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+              atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et
+              dolorum fuga.</p>
+          <p>by
+              <a>
+                  <strong>Carine Fox</strong>
+              </a>, 14/08/2018</p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-5 col-xl-5 mb-5">
+          <!--Featured image-->
+          <div class="view overlay rounded z-depth-2">
+              <img src="{% static 'img/asphalt-auto-automobile-221284.jpg' %}" alt="Second image in the first version of blog listing" class="img-fluid">
+              <a>
+                  <div class="mask waves-effect waves-light"></div>
+              </a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+      
+      
+      </div>
+    </div>
+  </section>
+      
+
+  {% endblock %}
